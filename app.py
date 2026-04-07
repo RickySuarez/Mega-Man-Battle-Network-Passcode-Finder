@@ -18,6 +18,19 @@ st.markdown(
     unsafe_allow_html=True
 )
 
+import streamlit as st
+
+# Meta tags for social preview image
+st.markdown(
+    """
+    <head>
+    <meta property="og:image" content="./media/Megaman_battle_network_legacy.avif">
+    <meta name="twitter:image" content="./media/Megaman_battle_network_legacy.avif">
+    </head>
+    """,
+    unsafe_allow_html=True
+)
+
 # App description
 st.markdown(
     """
